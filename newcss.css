@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    background: linear-gradient(to bottom, #1e262b, #0f1418);
+    text-align: center;
+    min-height: 100vh;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 500px;
+    padding: 30px;
+    margin: 40px auto;
+    border: 5px solid #C82909;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.1);
+}
+
+h3 {
+    color: #C9A227;
+    margin-top: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px rgba(201,162,39,0.3);
+}
+
+h1, h2 {
+    color: rgb(255, 255, 255);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #C82909;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ff4621;
+}
+
+.imagen-hardware {
+    width: 280px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    margin: 20px auto;
+    display: block;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+
+#imagenSensor {
+    width: 310px;
+    height: 260px;
+    object-fit: cover;   /* llena el espacio sin deformarse */
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+}
+
+.imagen-hardware:hover {
+    transform: scale(1.15); /* Aumenta 10% */
+    box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+}
+
+.descripcion {
+    color: white;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+#metricas {
+    color: white;
+    font-size: 16px;
+    margin-top: 15px;
+}
